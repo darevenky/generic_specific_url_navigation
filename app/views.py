@@ -2,8 +2,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def hai(request):
-    return render(request,'hai.html')
-
-def bye(request):
-    return render(request,'bye.html')
+def venky(request):
+    return render(request,'venky.html')
